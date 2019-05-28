@@ -1,0 +1,21 @@
+{
+  "name": "discord-rp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "build": "pkg index.js --output build/myApp.exe"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "ini": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
